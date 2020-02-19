@@ -16,6 +16,7 @@ chmod a+x ./ohs_install_centos.sh
 ```
 ```
 #start server (-f optional)
+/usr/local/sbin/bnetd
 /usr/local/sbin/bnetd -f
 
 #You can pass a command-line argument to use a different secondary configuration filename, instead of ghost.cfg:
