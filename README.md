@@ -28,5 +28,5 @@ chmod +x ./ghost++
 ```
 ```
 /usr/local/sbin/bnetd
-/home/OHSystem/ghost/bot/ghost++
+/home/OHSystem/ghost/bot/ghost++ /home/OHSystem/ghost/bot/weplay.cfg
 ```
