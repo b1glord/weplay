@@ -47,4 +47,4 @@ wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosya
 
 
 #start server (-f optional)
-/usr/local/sbin/bnetd -f
+#/usr/local/sbin/bnetd -f
