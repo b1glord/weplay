@@ -1,0 +1,14 @@
+PvPGN Bnet Emulation Sohbet Yardim Komutlari
+Yeni Komutlar:
+
+use /f help for a friend lists help
+use /users cevrimici kullanicilari goruntulemek icin
+use /w or /msg <username> to whisper people
+use /join <channel> to join a channel
+
+For Chan Ops:
+
+use /ban <username> bans a user from channel
+use /kick <username> kicks a user from channel
+
+Daha ayrintili bir yardim icin: / help

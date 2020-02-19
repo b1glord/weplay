@@ -1,0 +1,1 @@
+Голосовой сервер Ventrilo для клана||http://cleanvoice.ru/public

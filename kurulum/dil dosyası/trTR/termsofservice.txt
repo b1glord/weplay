@@ -1,0 +1,21 @@
+su anda bir PvPGN Sunucusuna baglisiniz (Player -vs- Player Gaming Network)
+
+PvPGN KULLANIM sARTLARI:
+
+PvPGN bir Battle.net (R) emulasyon sunucusudur ve hiçbir sekilde bnetd, warforge veya Blizzard Entertainment (R) ile baglantisi yoktur.
+PvPGN, herhangi bir garanti olmadan "oldugu gibi" saglanmaktadir.
+Korsan yazilim fikrini desteklemiyoruz ve sunucularimizda oynadiginiz oyunlarin okunakli bir kopyasini satin almanizi tavsiye ediyoruz.
+
+1. PvPGN'de bulunan bilgiler.
+PvPGN, PvPGN ile veya araciligiyla saglanan herhangi bir bilginin (gorus veya tavsiye beyanlari dahil) dogrulugunu, dogrulugunu veya guvenilirligini onaylamaz veya arkasinda durmaz. Forumlarda, sohbetlerde veya oyun sirasinda yapilan tum açiklamalar sadece yazarlarinin goruslerini yansitir.
+
+2. Warrenty Feragatnamesi.
+PvPGN size hiçbir garanti olmadan "oldugu gibi" saglanmaktadir. PvPGN, programlarinin kesintisiz veya hatasiz olacagini garanti etmez.
+
+3. Sorumluluk Sinirlamalari
+PvPGN, serefiye kaybi, is durmasi, bilgisayar arizasi veya arizasi veya bunlarla sinirli olmamak uzere, ticari veya baska herhangi bir zarari veya kaybi içeren, .
+
+Battle.net (R) ve Blizzard Entertainment (R), ABD'de ve / veya diger ulkelerde Blizzard Entertainment'in ticari markalari veya tescilli ticari markalaridir.
+
+Butun bunlarin yani sira ... Mutlu Oyunlar ..
+PvPGN Proje Sayfasi: http://pvpgn.berlios.de/

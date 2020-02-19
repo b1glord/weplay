@@ -1,0 +1,9 @@
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\bin\Debug\WC3Launcher.exe.config
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\bin\Debug\WC3Launcher.exe
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\bin\Debug\WC3Launcher.pdb
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.frmMain.resources
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.Properties.Resources.resources
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.csproj.GenerateResource.cache
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.csproj.CoreCompileInputs.cache
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.exe
+C:\Users\burak\Desktop\wc3launcher-master\WC3Launcher\obj\Debug\WC3Launcher.pdb
