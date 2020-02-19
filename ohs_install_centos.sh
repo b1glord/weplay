@@ -1,7 +1,7 @@
 #yum groupinstall "Development Tools"
 yum install -y gcc-c++ mariadb-libs mariadb-devel
 yum install -y screen tar wget unzip bzip2 bzip2-devel gmp-devel
-ln -s /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
+ln -s /usr/lib64/mysql/libmysqlclient.so /usr/lib64/libmysqlclient.so
 
 
 # Installing Git New Version
@@ -26,9 +26,11 @@ git clone https://github.com/b1glord/OHSystem.git
 cd /home/OHSystem/ghost/src/bncsutil/src/bncsutil
 make
 make install
+ln -s /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib64/libbncsutil.so
 cd /home/OHSystem/ghost/src/StormLib/stormlib
 make
 make install
+ln -s /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib64/libStorm.so
 cd /home/OHSystem/ghost/src
 make
 
