@@ -1,7 +1,8 @@
 # WePlay War3 Test Server and Client Files
 
+
+! Start Server First Run (-f optional)
 ```
-#Start Server First Run (-f optional)
 /usr/local/sbin/bnetd
 ```
 
