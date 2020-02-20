@@ -12,7 +12,6 @@ git --version
 
 
 cd /home
-#https://yadi.sk/d/tbVwfjSD9m4Qzg
 wget http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2
 tar xjf boost_1_54_0.tar.bz2
 cd /home/boost_1_54_0
@@ -22,27 +21,28 @@ cd /home/boost_1_54_0
 
 
 cd /home
-git clone https://github.com/b1glord/OHSystem.git
-cd /home/OHSystem/ghost/src/bncsutil/src/bncsutil
+git clone https://github.com/b1glord/ghostpp.git
+cd /home/ghostpp/bncsutil/src/bncsutil
 make
 make install
-cp /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib64/libbncsutil.so
-ln -s /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib/libbncsutil.so
+cp /home/ghostpp/bncsutil/src/bncsutil/libbncsutil.so /usr/lib64/libbncsutil.so
+ln -s /usr/lib64/libbncsutil.so /usr/lib/libbncsutil.so
 
-cd /home/OHSystem/ghost/src/StormLib/stormlib
+cd /home/ghostpp/StormLib/src
 make
 make install
-cp /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib64/libStorm.so
-ln -s /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib/libStorm.so
-cd /home/OHSystem/ghost/src
+cp /home/ghostpp/StormLib/stormlib/libStorm.so /usr/lib64/libStorm.so
+ln -s /usr/lib64/libStorm.so /usr/lib/libStorm.so
+
+cd /home/ghostpp/ghost
 make
 
 
 # Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
-cd /home/OHSystem/ghost
+cd /home/ghostpp
 mkdir ~root/bot
 mkdir ~root/bot/maps/ ~root/bot/replays/ ~root/bot/savegames/
-cp src/ghost++ ~root/bot/
+cp ghost/ghost++ ~root/bot/
 cp config/* ~root/bot -R
 cp plugins ~root/bot/ -R
 cp mapcfgs/ ~root/bot/ -R
