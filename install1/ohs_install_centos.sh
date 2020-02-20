@@ -32,6 +32,7 @@ make
 make install
 cp /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib/libStorm.so
 ln -s /usr/lib/libStorm.so /usr/lib64/libStorm.so
+
 cd /home/OHSystem/ghost/src
 make
 
