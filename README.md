@@ -16,17 +16,17 @@ chmod a+x ./ohs_install_centos.sh
 ```
 ```
 #Start Server First Run (-f optional)
-/usr/local/sbin/bnetd -f
+/usr/local/sbin/bnetd
 
 #Sart Ghost++ First Run
 #You can pass a command-line argument to use a different secondary configuration filename, instead of ghost.cfg:
 #./ghost++ /opt/myconfig.cfg
 #start ghost++
-cd /home/OHSystem/ghost/bot
-chmod +x ./ghost++
-./ghost++
+cd ~root/bot
+chmod a+x ~root/bot/ghost++
+~root/bot/ghost++
 ```
 ```
 /usr/local/sbin/bnetd
-/home/OHSystem/ghost/bot/ghost++ /home/OHSystem/ghost/bot/weplay.cfg
+~root/bot/ghost++ ~root/bot/weplay.cfg
 ```
