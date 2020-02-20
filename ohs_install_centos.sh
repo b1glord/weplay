@@ -26,21 +26,27 @@ git clone https://github.com/b1glord/OHSystem.git
 cd /home/OHSystem/ghost/src/bncsutil/src/bncsutil
 make
 make install
-ln -s /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib64/libbncsutil.so
+cp /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib64/libbncsutil.so
+ln -s /home/OHSystem/ghost/src/bncsutil/src/bncsutil/libbncsutil.so /usr/lib/libbncsutil.so
+
 cd /home/OHSystem/ghost/src/StormLib/stormlib
 make
 make install
-ln -s /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib64/libStorm.so
+cp /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib64/libStorm.so
+ln -s /home/OHSystem/ghost/src/StormLib/stormlib/libStorm.so /usr/lib/libStorm.so
 cd /home/OHSystem/ghost/src
 make
 
 
-# Final Step Copy Building Files...
+# Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
 cd /home/OHSystem/ghost
-mkdir bot
-cp src/ghost++ bot/
-cp config/* bot -R
-#cp plugins bot/ -R
-cp mapcfgs/ bot/ -R
-cp w3/ bot/ -R
-mkdir bot/maps/ bot/replays/ bot/savegames/
+mkdir ~root/bot
+mkdir ~root/bot/maps/ ~root/bot/replays/ ~root/bot/savegames/
+cp src/ghost++ ~root/bot/
+cp config/* ~root/bot -R
+cp plugins ~root/bot/ -R
+cp mapcfgs/ ~root/bot/ -R
+cp w3/ ~root/bot/ -R
+
+# Make Log File DIR...
+mkdir /usr/local/var/ghost
