@@ -15,7 +15,7 @@ chmod a+x ./ohs_install_centos.sh
 ./ohs_install_centos.sh
 ```
 ```
-#Sart Server First Run (-f optional)
+#Start Server First Run (-f optional)
 /usr/local/sbin/bnetd -f
 
 #Sart Ghost++ First Run
