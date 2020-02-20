@@ -20,7 +20,7 @@ cd /home/boost_1_54_0
 ldconfig
 
 cd /home
-git clone https://github.com/b1glord/OHSystem.git
+git clone https://github.com/b1glord/ghostpp.git
 cd /home/OHSystem/ghost/src/bncsutil/src/bncsutil
 make
 make install
