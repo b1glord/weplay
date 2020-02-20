@@ -12,10 +12,9 @@ git --version
 
 
 cd /home
-#https://yadi.sk/d/tbVwfjSD9m4Qzg
 wget http://downloads.sourceforge.net/project/boost/boost/1.38.0/boost_1_38_0.tar.bz2
-tar xjf boost_1_54_0.tar.bz2
-cd /home/boost_1_54_0
+tar xjf boost_1_38_0.tar.bz2
+cd /home/boost_1_38_0
 ./bootstrap.sh --with-libraries=filesystem,program_options,system,regex,thread,date_time --libdir=/usr/lib/
 ./bjam
 ./bjam install
@@ -50,3 +49,8 @@ cp w3/ ~root/bot/ -R
 
 # Make Log File DIR...
 mkdir /usr/local/var/ghost
+
+wget -c https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/examples/weplay.cfg -P ~root/bot/
+wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot/maps
+
+
