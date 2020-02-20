@@ -12,10 +12,10 @@ git --version
 
 
 cd /home
-wget http://downloads.sourceforge.net/project/boost/boost/1.38.0/boost_1_38_0.tar.bz2
-tar xjf boost_1_38_0.tar.bz2
-cd /home/boost_1_38_0
-./bootstrap.sh --with-libraries=filesystem,program_options,system,regex,thread,date_time --libdir=/usr/lib/
+wget http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2
+tar xjf boost_1_54_0.tar.bz2
+cd /home/boost_1_54_0
+./bootstrap.sh --with-libraries=filesystem,program_options,system,regex,thread,date_time --libdir=/usr/lib64/
 ./bjam
 ./bjam install
 
