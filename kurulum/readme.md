@@ -1,11 +1,16 @@
-### Config Files Location
+### Pvpgn Config Files Location
 ```
 usr/local/etc
 ```
 
+### Pvpgn Log Files Location
+```
+/usr/local/var/pvpgn
+```
+
 ### Start Server (-f optional)
 ```
-/usr/local/sbin/bnetd -f
+/usr/local/sbin/bnetd
 ```
 
 ### calisma zamanı aktuel log gorunumu
