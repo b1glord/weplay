@@ -1,8 +1,5 @@
 # WePlay War3 Test Server and Client Files
 
-### Centos 7 Installer
-
-
 ```
 #Start Server First Run (-f optional)
 /usr/local/sbin/bnetd
