@@ -51,6 +51,12 @@ cp w3/ ~root/bot/ -R
 mkdir /usr/local/var/ghost
 
 wget -c https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/examples/weplay.cfg -P ~root/bot/
+
 wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot/maps
 
-
+wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/Game.dll -P ~root/bot/w3
+wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/War3Patch.mpq -P ~root/bot/w3
+wget -c https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/blizzard.j -P ~root/bot/w3
+wget -c https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/common.j -P ~root/bot/w3
+wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/storm.dll -P ~root/bot/w3
+wget -c https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/war3.exe -P ~root/bot/w3
