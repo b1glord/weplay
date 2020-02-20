@@ -4,7 +4,6 @@ yum install -y screen tar wget unzip bzip2 bzip2-devel gmp-devel
 ln -s /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
 
 # Installing Git New Version
-yum remove -y git
 yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 yum install -y git2u
 git --version
