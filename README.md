@@ -14,5 +14,5 @@ chmod a+x ~root/bot/ghost++
 ```
 ```
 /usr/local/sbin/bnetd
-~root/bot/ghost++ ~root/bot/weplay.cfg
+~root/bot/ghost++
 ```
