@@ -17,6 +17,7 @@ cd /home/boost_1_54_0
 ./bjam
 ./bjam install
 
+ldconfig
 
 cd /home
 git clone https://github.com/b1glord/OHSystem.git
@@ -34,6 +35,7 @@ ln -s /usr/lib/libStorm.so /usr/lib64/libStorm.so
 cd /home/OHSystem/ghost/src
 make
 
+ldconfig
 
 # Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
 cd /home/OHSystem/ghost
