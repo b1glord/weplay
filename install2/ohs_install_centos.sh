@@ -47,10 +47,11 @@ ldconfig
 cd /home/ghostpp
 mkdir ~root/bot
 mkdir ~root/bot/maps/ ~root/bot/replays/ ~root/bot/savegames/
-cp src/ghost++ ~root/bot/
-cp config/* ~root/bot -R
-cp plugins ~root/bot/ -R
+cp ghost/ghost++ ~root/bot/
+cp mysql/ ~root/bot -R
+cp update_dota_elo/ ~root/bot/ -R
 cp mapcfgs/ ~root/bot/ -R
+cp zlib/ ~root/bot/ -R
 cp w3/ ~root/bot/ -R
 
 # Make Log File DIR...
