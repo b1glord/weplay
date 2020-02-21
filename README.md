@@ -15,13 +15,13 @@
 ### start ghost++
 ---
 ```
-cd ~root/bot
-chmod a+x ~root/bot/ghost++
-~root/bot/ghost++
+cd ~root/bot1
+chmod a+x ~root/bot1/ghost++
+~root/bot1/ghost++
 ```
 
 ```
 /usr/local/sbin/bnetd
-cd ~root/bot
+cd ~root/bot1
 ./ghost++
 ```
