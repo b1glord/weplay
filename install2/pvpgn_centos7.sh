@@ -30,9 +30,9 @@ make install
 
 
 #change bnetd.conf
-#cd /usr/local/etc/pvpgn/
-#rm -r -f bnetd.conf
-#wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/bnetd.conf
+cd /usr/local/etc/pvpgn/
+rm -r -f bnetd.conf
+wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/bnetd.conf
 
 # Add TR Language
 mkdir /usr/local/etc/pvpgn/i18n/trTR
