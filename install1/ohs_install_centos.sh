@@ -40,28 +40,27 @@ ldconfig
 
 # Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
 cd /home/OHSystem/ghost
-mkdir ~root/bot
-mkdir ~root/bot/maps/ ~root/bot/replays/ ~root/bot/savegames/
-cp src/ghost++ ~root/bot/
-cp config/* ~root/bot -R
-cp plugins ~root/bot/ -R
-cp mapcfgs/ ~root/bot/ -R
-cp w3/ ~root/bot/ -R
+mkdir ~root/bot1 ~root/bot1/maps/ ~root/bot1/replays/ ~root/bot1/savegames/
+cp src/ghost++ ~root/bot1/
+cp config/* ~root/bot1 -R
+cp plugins ~root/bot1/ -R
+cp mapcfgs/ ~root/bot1/ -R
+cp w3/ ~root/bot1/ -R
 
 # Make Log File DIR...
 mkdir /usr/local/var/ghost
 
-wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/examples/weplay.cfg -P ~root/bot/
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/ip-to-country.csv -P ~root/bot/
+wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/examples/weplay.cfg -P ~root/bot1/
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/ip-to-country.csv -P ~root/bot1/
 
-wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/mapcfgs/dota.cfg -P ~root/bot/mapcfgs
+wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/mapcfgs/dota.cfg -P ~root/bot1/mapcfgs
 
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot/maps
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot1/maps
 
 
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/Game.dll -P ~root/bot/w3
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/War3Patch.mpq -P ~root/bot/w3
-wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/blizzard.j -P ~root/bot/w3
-wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/common.j -P ~root/bot/w3
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/storm.dll -P ~root/bot/w3
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/war3.exe -P ~root/bot/w3
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/Game.dll -P ~root/bot1/w3
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/War3Patch.mpq -P ~root/bot1/w3
+wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/blizzard.j -P ~root/bot1/w3
+wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/common.j -P ~root/bot1/w3
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/storm.dll -P ~root/bot1/w3
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/war3.exe -P ~root/bot1/w3
