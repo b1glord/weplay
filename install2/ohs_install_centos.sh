@@ -45,20 +45,16 @@ ldconfig
 
 # Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
 cd /home/ghostpp
-mkdir ~root/bot
-mkdir ~root/bot/maps/ ~root/bot/replays/ ~root/bot/savegames/
-cp ghost/ghost++ ~root/bot/
-cp mysql/ ~root/bot -R
-cp update_dota_elo/ ~root/bot/ -R
-cp mapcfgs/ ~root/bot/ -R
-cp zlib/ ~root/bot/ -R
-cp w3/ ~root/bot/ -R
+mkdir ~root/bot1 ~root/bot1/maps/ ~root/bot1/replays/ ~root/bot1/savegames/
+cp ghost/ghost++ ~root/bot1/
+cp /home/ghostpp/* ~root/bot1/
+cp mapcfgs/ ~root/bot1/ -R
+
 
 # Make Log File DIR...
 mkdir /usr/local/var/ghost
 
 wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/examples/weplay.cfg -P ~root/bot/
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/ip-to-country.csv -P ~root/bot/
 
 wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/mapcfgs/dota.cfg -P ~root/bot/mapcfgs
 
