@@ -22,5 +22,6 @@ chmod a+x ~root/bot/ghost++
 
 ```
 /usr/local/sbin/bnetd
-~root/bot/ghost++
+cd ~root/bot
+./ghost++
 ```
