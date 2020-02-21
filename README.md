@@ -17,7 +17,7 @@
 ```
 cd ~root/bot1
 chmod a+x ~root/bot1/ghost++
-~root/bot1/ghost++
+./ghost++
 ```
 
 ```
