@@ -28,15 +28,27 @@ mkdir build
 cmake -G "Unix Makefiles" -B./build -H./
 cd build && make && sudo make install
 
+cp /home/ghostpp/bncsutil/build/libbncsutil.so /usr/lib/libbncsutil.so
+ln -s /usr/lib/libbncsutil.so /usr/lib64/libbncsutil.so
+
+
 cd ../../StormLib/
 mkdir build
 cmake -G "Unix Makefiles" -B./build -H./
 cd build && make && sudo make install
 
+cp /home/ghostpp/StormLib/build/libstorm.a /usr/lib/libstorm.a
+ln -s /usr/lib/libstorm.a /usr/lib64/libstorm.a
+
+
 cd ../../CascLib/
 mkdir build
 cmake -G "Unix Makefiles" -B./build -H./
 cd build && make && sudo make install
+
+cp /home/ghostpp/CascLib/build/libcasc.so /usr/lib/libcasc.so
+ln -s /usr/lib/libcasc.so /usr/lib64/libcasc.so
+
 
 cd ../../ghost/
 make
