@@ -21,8 +21,8 @@ yum -y install devtoolset-7
 
   echo -n "download pvpgn server"
 cd /home
-git clone https://github.com/b1glord/SERVER.git
-cd SERVER
+git clone https://github.com/b1glord/pvpgn-server.git
+cd pvpgn-server
 
 CC=/opt/rh/devtoolset-7/root/usr/bin/gcc CXX=/opt/rh/devtoolset-7/root/usr/bin/g++ cmake -D WITH_LUA=true -D WITH_MYSQL=true -G "Unix Makefiles" -H./ -B./build
 cd build && make
@@ -30,21 +30,20 @@ make install
 
 
 #change bnetd.conf
-cd /usr/local/etc/pvpgn/
-rm -r -f bnetd.conf
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/bnetd.conf
+#cd /usr/local/etc/pvpgn/
+#rm -r -f bnetd.conf
+#wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/bnetd.conf
 
-# Add Language
+# Add TR Language
 mkdir /usr/local/etc/pvpgn/i18n/trTR
-cd /usr/local/etc/pvpgn/i18n/trTR
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnhelp.conf
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnmotd.txt
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/chathelp-war3.txt
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/common.xml
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/newaccount.txt
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/termsofservice.txt
-wget https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/w3motd.txt
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnhelp.conf -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnmotd.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/chathelp-war3.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/common.xml -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/newaccount.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/termsofservice.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/w3motd.txt -P /usr/local/etc/pvpgn/i18n/trTR
 
 
 #start server (-f optional)
-#/usr/local/sbin/bnetd -f
+#/usr/local/sbin/bnetd
