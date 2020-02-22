@@ -1,12 +1,10 @@
 %EMerhaba %l, Hosgeldiniz %s!
 %TSunucu Versiyonu %v ve %h uzerinde
-%IBu sunucu %H tarafindan barindiriliyor. 
+%IBu server %H tarafindan barindiriliyor. 
 %I
-%IBu sunucuda bagli %a kullanici var.
-%ISunucumuzda
-%I%U users in %G games of %N,
-%I%u users playing %g games 
-%I%c Sohbet Kanali Mevcuttur.
+%IBu sunucuda %a kullanici hesabi var.
+%ISu anda %U oyunda %G kullanici var %N,
+%Ive %u kullanıcı %g oyun oynuyor ve %c kanalda sohbet ediyor.
 %IBir komutla ilgili sorun mu yasıyorsunuz? /help komutu ile
 %IKomutlar Hakkinda daha fazla bilgi edinebilirsiniz.
 %ICeviriyi degistirmek icin /lang komutunu kullanabilirsiniz.
