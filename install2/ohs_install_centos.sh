@@ -57,7 +57,7 @@ ldconfig
 
 # Final Step Copy Building Files... (Uyari! Sadece Kok [root] dizinde calisiyor)
 cd /home/ghostpp
-mkdir ~root/bot1 ~root/bot1/maps/ ~root/bot1/replays/ ~root/bot1/savegames/ ~root/bot1/w3/
+mkdir ~root/bot1 ~root/bot1/maps/ ~root/bot1/maps/Download ~root/bot1/replays/ ~root/bot1/savegames/ ~root/bot1/w3/
 cp ghost/ghost++ ~root/bot1/
 cp /home/ghostpp/* ~root/bot1/
 cp mapcfgs/ ~root/bot1/ -R
@@ -70,7 +70,7 @@ wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III
 
 wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/mapcfgs/dota.cfg -P ~root/bot1/mapcfgs
 
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot1/maps
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA%20v6.85n%20Allstars.w3x -P ~root/bot1/maps/Download/
 
 
 wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/Game.dll -P ~root/bot1/w3 -o ~root/bot1/w3/game.dll
