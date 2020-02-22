@@ -55,7 +55,7 @@ wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghos
 
 wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/mapcfgs/dota.cfg -P ~root/bot1/mapcfgs
 
-wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA_Allstars_6.88x7c.w3x -P ~root/bot1/maps
+wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/maps/DotA%20v6.85n%20Allstars.w3x -P ~root/bot1/maps
 
 
 wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/Game.dll -P ~root/bot1/w3
