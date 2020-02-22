@@ -6,7 +6,7 @@
 %ISunucumuzda
 %I%U users in %G games of %N,
 %I%u users playing %g games 
-%Ichatting in %c channels.
+%I%c kullanici kanalda sohbet ediyor.
 %IBir komutla ilgili sorun mu yasıyorsunuz? /help komutu ile
 %IKomutlar Hakkinda daha fazla bilgi edinebilirsiniz.
 %ICeviriyi degistirmek icin /lang komutunu kullanabilirsiniz.
