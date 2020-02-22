@@ -1,13 +1,12 @@
-%EMerhaba %l, Hosgeldiniz
-%ISunucu Versiyonu %v uzerinde %h.
-%IBu sunucu WePlay Game tarafindan saglanmaktadir.
+%EMerhaba %l, Hosgeldiniz %s!
+%ISunucu Surum %v uzerinde %h.
+%IBu sunucu %H tarafindan barindiriliyor. 
 %I
-%ISunucuda Toplam %a Kayitli Kullanci
-%I%N Kanalinda %G oyuncu mevcut %U kullanici bagli,
-%Ive %u kullanicilari %g oyun oynuyor ve 
-%Toplam %c kanal aktif durumda.
-%IKomutlar ile sorun mu yasiyorsunuz? /help yazarak
-%Ikomutlar hakkinda daha fazla bilgi alabilirsiniz.
-%IÇeviriyi degistirmek için /lang komutunu kullanin.
+%IBu sunucuda %a kullanici hesabi var.
+%IThere are currently %U users in %G games of %N,
+%Iand %u users playing %g games and chatting in %c channels.
+%IBir komutla ilgili sorun mu yasıyorsunuz? 
+%IHakkinda daha fazla bilgi edinmek için / help yazın.
+%ICeviriyi degistirmek icin /lang komutunu kullanabilirsiniz.
 %I
 %M%m
