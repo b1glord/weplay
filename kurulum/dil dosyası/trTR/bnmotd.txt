@@ -1,12 +1,14 @@
 %EMerhaba %l, Hosgeldiniz %s!
-%ISunucu Surum %v uzerinde %h.
+%TSunucu Versiyonu %v ve %h uzerinde
 %IBu sunucu %H tarafindan barindiriliyor. 
 %I
-%IBu sunucuda %a kullanici hesabi var.
-%IThere are currently %U users in %G games of %N,
-%Iand %u users playing %g games and chatting in %c channels.
-%IBir komutla ilgili sorun mu yasıyorsunuz? 
-%IHakkinda daha fazla bilgi edinmek için / help yazın.
+%IBu sunucuda bagli %a kullanici var.
+%ISunucumuzda
+%I%U users in %G games of %N,
+%I%u users playing %g games 
+%Ichatting in %c channels.
+%IBir komutla ilgili sorun mu yasıyorsunuz? /help komutu ile
+%IKomutlar Hakkinda daha fazla bilgi edinebilirsiniz.
 %ICeviriyi degistirmek icin /lang komutunu kullanabilirsiniz.
 %I
 %M%m
