@@ -1,4 +1,4 @@
-|c00FF0000%s |c00FF9933Warcraft3 |c0000CCFFSunucusuna |c00FF66FF%Hosgeldiniz |c0000CC00Versiyon |c009999FF%v |c00FFFFFF
+|c00FF0000%H |c00FF9933Warcraft3 |c0000CCFFSunucusuna |c00FF66FF%Hosgeldiniz |c0000CC00Versiyon |c009999FF%v |c00FFFFFF
 
 %g oyunlarinda %g oyunu oynayan ve %g oyun oynayan 
 ve %c kanallinda sohbet eden %u kullanici var.
