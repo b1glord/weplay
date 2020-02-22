@@ -64,3 +64,5 @@ wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III
 wget -nc https://raw.githubusercontent.com/b1glord/Configs/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/common.j -P ~root/bot1/w3
 wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/storm.dll -P ~root/bot1/w3
 wget -nc https://github.com/b1glord/Configs/raw/master/Warcraft%20III/ghost/ghost%2B%2B/war3data/war3.exe -P ~root/bot1/w3
+
+# War3Patch.mpq Dosyasını w3 klasorune kopylamayi unutmayin yoksa calisir ama oyun kurmaz
