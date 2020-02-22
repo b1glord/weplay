@@ -9,7 +9,7 @@
 
 ```
 yum install -y wget
-cd /home
+cd /tmp
 
 wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/pvpgn_centos7.sh
 chmod a+x ./pvpgn_centos7.sh
