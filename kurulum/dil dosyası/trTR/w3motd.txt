@@ -1,7 +1,7 @@
 |c00FF0000%s |c00FF9933Warcraft3 |c0000CCFFSunucusuna |c00FF66FFHosGeldiniz 
 |c0000CC00Version |c009999FF%v |c00FFFFFF
 There are currently %U user(s) in %G games of %N, and %u user(s) playing %g games and chatting in %c channels.
-Şu anda %U oyunda %G kullanıcı var ve %N kullanıcı %u oyun oynuyor ve %g kanalda sohbet ediyor.
+Su anda %U oyunda %G %N kullanıcı var ve %u kullanıcı %g oyun oynuyor ve %c kanalda sohbet ediyor.
 
 
 
