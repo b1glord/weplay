@@ -28,6 +28,16 @@ CC=/opt/rh/devtoolset-7/root/usr/bin/gcc CXX=/opt/rh/devtoolset-7/root/usr/bin/g
 cd build && make
 make install
 
+# Add TR Language
+mkdir /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnhelp.conf -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnmotd.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/chathelp-war3.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/common.xml -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/newaccount.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/termsofservice.txt -P /usr/local/etc/pvpgn/i18n/trTR
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/w3motd.txt -P /usr/local/etc/pvpgn/i18n/trTR
+
 
 #change bnetd.conf
 cd /usr/local/etc/pvpgn/
@@ -46,17 +56,6 @@ wget -nc https://github.com/b1glord/weplay/raw/master/install2/GameDll_fix_mapsi
 
 # Example: allowed_clients = war3,w3xp
 sed -i "s/allowed_clients = all/allowed_clients = w3xp/" /usr/local/etc/pvpgn/bnetd.conf
-
-
-# Add TR Language
-mkdir /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnhelp.conf -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/bnmotd.txt -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/chathelp-war3.txt -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/common.xml -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/newaccount.txt -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/termsofservice.txt -P /usr/local/etc/pvpgn/i18n/trTR
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/w3motd.txt -P /usr/local/etc/pvpgn/i18n/trTR
 
 
 sed -i "s/ghost = false, -- enable GHost commands/ghost = true, -- enable GHost commands/" /usr/local/var/pvpgn/lua/config.lua
