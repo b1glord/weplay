@@ -39,7 +39,7 @@ wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/bnetd.conf
 
 # Downloadable files   
 #Add Auto Download  config.dota.ini
-sed -i "s/ghost = false, -- enable GHost commands/war3_iconfile = "config.dota.ini"/" /usr/local/etc/pvpgn/bnetd.conf
+sed -i "s/star_iconfile = "icons_STAR.bni"/war3_iconfile = "config.dota.ini"/" /usr/local/etc/pvpgn/bnetd.conf
 
 
 
