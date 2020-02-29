@@ -10,7 +10,7 @@
 ### Start Ghost++ First Run
 ---
 ### You can pass a command-line argument to use a different secondary configuration filename, instead of ghost.cfg:
-### ./ghost++ /opt/myconfig.cfg (bu örnek ile denedim calismiyor)
+### ./ghost++ /opt/myconfig.cfg (bu örnek ile denedim dosyalarin root klasorunde olmasi gerekli!)
 
 ### start ghost++ first run
 ---
