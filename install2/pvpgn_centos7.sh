@@ -45,5 +45,8 @@ wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20d
 wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/kurulum/dil%20dosyas%C4%B1/trTR/w3motd.txt -P /usr/local/etc/pvpgn/i18n/trTR
 
 
+sed -i "s/ghost = false, -- enable GHost commands/ghost = true, -- enable GHost commands/" /usr/local/var/pvpgn/lua/config.lua
+sed -i "s/DOTA = DotA|DotA v6.80c.w3x/DOTA = DotA|DotA v6.85n Allstars.w3x/" /usr/local/var/pvpgn/lua/ghost/maplist.txt
+
 #start server (-f optional)
-#/usr/local/sbin/bnetd
+/usr/local/sbin/bnetd
