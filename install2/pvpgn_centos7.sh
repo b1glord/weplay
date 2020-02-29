@@ -34,13 +34,16 @@ cd /usr/local/etc/pvpgn/
 rm -r -f bnetd.conf
 wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/bnetd.conf
 
-# Beta test versiyon 
+# Beta test edilmedi
 #sed -i "s/storage_path = "file:mode=plain;dir=/usr/local/var/pvpgn/users;clan=/usr/local/var/pvpgn/clans;team=/usr/local/var/pvpgn/teams;default=/usr/local/etc/pvpgn/bnetd_default_user.plain"/storage_path = "sql:mode=mysql;host=192.168.1.15;name=pvpgn;user=pvpgn;pass=pass1234;default=0;prefix=pvpgn_"/" /usr/local/etc/pvpgn/bnetd.conf
 
 # Downloadable files   
 #Add Auto Download  config.dota.ini
-sed -i "s/star_iconfile = "icons_STAR.bni"/war3_iconfile = "config.dota.ini"/" /usr/local/etc/pvpgn/bnetd.conf
+sed -i "s/war3_iconfile = "icons-WAR3.bni"a/war3_iconfile = "config.dota.ini"/" /usr/local/etc/pvpgn/bnetd.conf
+sed  '/war3_iconfile = "icons-WAR3.bni"/a war3_iconfile = "config.dota.ini"' /usr/local/etc/pvpgn/bnetd.conf
 
+# Example: allowed_clients = war3,w3xp
+sed -i "s/allowed_clients = w3xp/allowed_clients = w3xp/" /usr/local/etc/pvpgn/bnetd.conf
 
 
 # Add TR Language
