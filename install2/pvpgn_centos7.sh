@@ -38,9 +38,11 @@ wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/bnetd.conf
 #sed -i "s/storage_path = "file:mode=plain;dir=/usr/local/var/pvpgn/users;clan=/usr/local/var/pvpgn/clans;team=/usr/local/var/pvpgn/teams;default=/usr/local/etc/pvpgn/bnetd_default_user.plain"/storage_path = "sql:mode=mysql;host=192.168.1.15;name=pvpgn;user=pvpgn;pass=pass1234;default=0;prefix=pvpgn_"/" /usr/local/etc/pvpgn/bnetd.conf
 
 # Downloadable files   
-#Add Auto Download  config.dota.ini
+#Add Auto Download  Extra files
 sed -i '/war3_iconfile = "icons-WAR3.bni"/a war3_iconfile = "config.dota.ini"' /usr/local/etc/pvpgn/bnetd.conf
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/install2/config.dota.ini  -P /usr/local/var/pvpgn/files
+sed -i '/war3_iconfile = "icons-WAR3.bni"/a war3_iconfile = "GameDll_fix_mapsize_limit.mix"' /usr/local/etc/pvpgn/bnetd.conf
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/install2/config.dota.ini -P /usr/local/var/pvpgn/files
+wget -nc https://github.com/b1glord/weplay/raw/master/install2/GameDll_fix_mapsize_limit.mix -P /usr/local/var/pvpgn/files
 
 # Example: allowed_clients = war3,w3xp
 sed -i "s/allowed_clients = all/allowed_clients = w3xp/" /usr/local/etc/pvpgn/bnetd.conf
