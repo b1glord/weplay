@@ -40,6 +40,7 @@ wget https://raw.githubusercontent.com/b1glord/weplay/master/install2/bnetd.conf
 # Downloadable files   
 #Add Auto Download  config.dota.ini
 sed -i '/war3_iconfile = "icons-WAR3.bni"/a war3_iconfile = "config.dota.ini"' /usr/local/etc/pvpgn/bnetd.conf
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/install2/config.dota.ini  -P /usr/local/var/pvpgn/files
 
 # Example: allowed_clients = war3,w3xp
 sed -i "s/allowed_clients = all/allowed_clients = w3xp/" /usr/local/etc/pvpgn/bnetd.conf
