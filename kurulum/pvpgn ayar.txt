@@ -3,11 +3,13 @@ nano /usr/local/var/pvpgn/lua/config.lua
 bul ve degistir false degeri true olacak
 ghost = false, -- enable GHost commands
 
+sed -i "s/ghost = false, -- enable GHost commands/ghost = true, -- enable GHost commands/" /usr/local/var/pvpgn/lua/config.lua
+
 
 nano /usr/local/var/pvpgn/lua/ghost/maplist.txt
 bul ve degistir harita adlari eklenecek
 
-
+sed -i "s/DOTA = DotA|DotA v6.80c.w3x/DOTA = DotA|DotA v6.85n Allstars.w3x/" /usr/local/var/pvpgn/lua/ghost/maplist.txt
 
 # -window takısı ile oyunu pencere modunda acabiliyoruz
 "D:\Warcraft III 1.28.5\w3l.exe" -window -opengl
