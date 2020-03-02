@@ -6,11 +6,10 @@
 ```
 ### Download Start ghost++ Background
 ```
-cd ~root/bot1
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/start.sh
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/stop.sh
-wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/restart.sh
-chmod +x start.sh stop.sh restart.sh
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/start.sh -P ~root/bot1
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/stop.sh -P ~root/bot1
+wget -nc https://raw.githubusercontent.com/b1glord/weplay/master/run/restart.sh -P ~root/bot1
+chmod +x ~root/bot1/start.sh ~root/bot1/stop.sh ~root/bot1/restart.sh
 ```
 ### Start ghost++ Background
 ```
