@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/programme/ghost/
+cd ~root/bot1
 
 screen -A -m -d -S ghost++ /root/bot1/ghost++
