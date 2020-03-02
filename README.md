@@ -25,3 +25,9 @@ chmod a+x ~root/bot1/ghost++
 cd ~root/bot1
 ./ghost++ weplay.cfg
 ```
+
+### Dota Map Website
+http://d1stats.ru/download/
+
+### Wampirism Map Website
+https://community.vampirism.eu/
