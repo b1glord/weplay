@@ -17,3 +17,8 @@ chmod +x ~root/bot1/start.sh ~root/bot1/stop.sh ~root/bot1/restart.sh
 ~root/bot1/stop.sh
 ~root/bot1/restart.sh
 ```
+
+
+
+
+### Ref: http://suchdichsatt.de/tutorial/warcraft3-ghost
