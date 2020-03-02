@@ -20,7 +20,7 @@ cd /home/boost_1_55_0
 ldconfig
 
 cd /home
-git clone https://github.com/b1glord/ghostpp.git
+git clone https://github.com/b1glord/brtghost.git
 cd ghostpp
 
 cd bncsutil
