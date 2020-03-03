@@ -1,6 +1,6 @@
-#### https://github.com/b1glord/ghostpp
-#### b1glord/ghostpp
-#### forked from uakfdotb/ghostpp
+#### https://github.com/b1glord/brtghost
+#### b1glord/brtghost
+#### forked from w3gh/brtghost
 
 
 #### Bu kurulum ust kisimdaki github deposu baz alinarak yazilmistir.
