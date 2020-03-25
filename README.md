@@ -16,6 +16,7 @@
 cd ~root/bot1
 chmod a+x ~root/bot1/ghost++
 ./ghost++
+screen -d -m ./ghost++
 ```
 
 ### Start pvpgn and ghost++
