@@ -14,7 +14,7 @@
 ### start ghost++ first run
 ```
 cd ~root/bot1
-chmod a+x ~root/bot1/ghost++
+chmod +x ~root/bot1/ghost++
 ./ghost++
 screen -d -m ./ghost++
 ```
