@@ -1,8 +1,8 @@
   echo -n "Removing Git Old Version... "
-  yum remove -y git firewalld
+  yum -y remove git firewalld
   echo -n "Installing Git New Version... "
-  yum install -y https://centos7.iuscommunity.org/ius-release.rpm
-  yum install -y git2u
+  yum -y install https://repo.ius.io/ius-release-el7.rpm
+  yum -y --enablerepo=ius install git224
   git --version
   
 yum -y install epel-release centos-release-scl wget nano
