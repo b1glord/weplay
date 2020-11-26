@@ -21,8 +21,9 @@ yum -y install devtoolset-7
 
   echo -n "download pvpgn server"
 cd /home
-git clone https://github.com/b1glord/SERVER.git
-cd SERVER
+#git clone https://github.com/b1glord/SERVER.git
+git clone https://github.com/b1glord/pvpgn-server.git
+cd pvpgn-server
 
 CC=/opt/rh/devtoolset-7/root/usr/bin/gcc CXX=/opt/rh/devtoolset-7/root/usr/bin/g++ cmake -D WITH_LUA=true -D WITH_MYSQL=true -G "Unix Makefiles" -H./ -B./build
 cd build && make
