@@ -4,9 +4,12 @@ yum install -y screen tar wget unzip bzip2 bzip2-devel gmp-devel
 ln -s /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
 
 # Installing Git New Version
-yum install -y https://centos7.iuscommunity.org/ius-release.rpm
-yum install -y git2u
-git --version
+  echo -n "Removing Git Old Version... "
+  yum -y remove git firewalld
+  echo -n "Installing Git New Version... "
+  yum -y install https://repo.ius.io/ius-release-el7.rpm
+  yum -y --enablerepo=ius install git224
+  git --version
 
 
 cd /home
