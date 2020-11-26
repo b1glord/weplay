@@ -1,6 +1,6 @@
 #yum groupinstall "Development Tools"
-yum install -y gcc-c++ mariadb-libs mariadb-devel
-yum install -y screen tar wget unzip bzip2 bzip2-devel gmp-devel
+yum -y install gcc-c++ mariadb-libs mariadb-devel
+yum -y install screen tar wget unzip bzip2 bzip2-devel gmp-devel
 ln -s /usr/lib64/mysql/libmysqlclient.so /usr/lib/libmysqlclient.so
 
 # Installing Git New Version
