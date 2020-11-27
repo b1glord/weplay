@@ -1,13 +1,13 @@
-  echo -n "Removing Git Old Version... "
+ yum -y install epel-release centos-release-scl nano
+yum -y install mariadb-devel zlib-devel lua-devel
+ 
+ 
+ echo -n "Removing Git Old Version... "
   yum -y remove git firewalld
   echo -n "Installing Git New Version... "
   yum -y install https://repo.ius.io/ius-release-el7.rpm
   yum -y --enablerepo=ius install git224
   git --version
-  
-yum -y install epel-release centos-release-scl wget nano
-yum -y install mariadb-devel zlib-devel lua-devel
-
 
   echo -n "development tools daki cmake varken cmake3 ü yüklemede hata veriyor o yuzden siliyoruz"
 yum remove cmake
