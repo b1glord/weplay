@@ -1,4 +1,4 @@
- yum -y install epel-release centos-release-scl nano
+yum -y install epel-release centos-release-scl nano
 yum -y install mariadb-devel zlib-devel lua-devel
  
  
