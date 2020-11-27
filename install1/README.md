@@ -7,7 +7,7 @@
 ### Centos 7 Installer
 
 ```
-yum install -y wget
+yum -y install wget
 cd /home
 
 wget https://raw.githubusercontent.com/b1glord/weplay/master/install1/pvpgn_centos7.sh
