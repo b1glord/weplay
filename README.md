@@ -1,4 +1,4 @@
-# WePlay War3 Test Server and Client Files
+# WeePlay War3 Test Server and Client Files
 ---
 
 ### Start Server First Run (-f optional)
